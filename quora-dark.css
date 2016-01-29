@@ -41,7 +41,7 @@
   /*** background ***/
   .ActionBar, .grid_page_right_col .ObjectCard, .grid_page_right_col .ObjectCard-footer,
   .FeedStoryTimestamp, .FeedStoryTimestamp hr, .interval_timestamp, .feed_item, .NotificationItem.seen,
-  .edit_faq_link, .title a, .editor_toolbar .modifier.overflow_show:before,
+  .edit_faq_link, .title a, .editor_toolbar .modifier.overflow_show:before, 
   .editor_toolbar .modifier.overflow_hide:before, .FollowSuggestionCard.InlineFollowSuggestionCard,
   .FollowSuggestionCard.InlineFollowSuggestionCard .ObjectCard-footer {
     background: transparent !important;
@@ -59,7 +59,7 @@
   .new_user_checklist, .results_frame li, .container, .FeedBottomIndicator, .threaded_comments,
   .ActionBar.sticky, .ExistingUserNuxSidebar, .hover_menu_item, .Announcement .footer,
   .EditableList .nav_item_selected a, .EditableList .StaticListItem > .selected,
-  .ask_interstitial, .ViewsOnHovercard, .search_input:before, .editor_toolbar,
+  .ask_interstitial, .ViewsOnHovercard, .search_input:before, .editor_toolbar,.banner_answer,
   .NewGridQuestionPage .header .shared_form {
     background: #222 !important;
   }
@@ -93,7 +93,7 @@
   }
 
   /*** text color ***/
-  a, a span, a:hover .TopicName {
+  a, a span, a:hover .TopicName, .user {
     color: /*[[base-color]]*/ #b50 !important;
   }
   h1,h2,h3,h4,h5,h6,blockquote,div,div > span, span > span, li,input,textarea,
